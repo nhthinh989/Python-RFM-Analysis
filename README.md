@@ -14,7 +14,7 @@ https://colab.research.google.com/drive/1gu1RJXNpoT_qajnI7ZYiWEX4dHvYRWBq
 - However, the Marketing team has not yet been able to segment this year's customers due to the large dataset, making manual processing—previously used in past years—impractical. Therefore, they are seeking assistance from the Data Analytics department to implement a customer segmentation model that will allow them to tailor marketing programs to different customer groups effectively.  
 
 - The Marketing Director has proposed using the RFM model for segmentation. In the past, when the company was smaller, the team could calculate and classify customers using Excel. However, given the current data volume, they are requesting the Data Analytics department to develop a Python-based workflow to assess and implement customer segmentation efficiently.
-- 
+
 ### 2. DATASET
 Dataset used (as attachment) is a transnational dataset which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.
 
