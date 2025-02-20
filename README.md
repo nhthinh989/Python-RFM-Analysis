@@ -68,7 +68,7 @@ ecommerce.describe()
   - InvoiceDate object -> datetime
   - UnitPrice: object with decimal values using commas -> float with decimal values using dots.
 - **Data Values:**
-  - Quantity < 0 -> Cancelled invoices -> Remove
+  - Quantity < 0 -> Invoice refunded or canceled -> Remove
   - UnitPrice < 0 -> Assumption:Error -> Remove
 
 ```Python
@@ -345,8 +345,9 @@ loyal_value = loyal_iv.groupby("InvoiceNo").sum("LineTotal")
 loyal_avg = loyal_value['LineTotal'].mean()
 
 loyal_avg
-```
+
 Ouput: 378.9460510510511
+```
 
 ##### **Example 2**  
 
@@ -363,5 +364,6 @@ totalvalue = ecommerce.groupby("InvoiceNo").sum("LineTotal")
 avgvalue = totalvalue['LineTotal'].mean()
 
 avgvalue
-```
+
 Output: 480.86595639974104
+```
