@@ -42,7 +42,7 @@ Dataset used (as attachment) is a transnational dataset which contains all the t
 ***How does RFM Analysis work?***
 - In RFM analysis, customers are scored based on three factors (Recency - how recently, Frequency - how often, Monetary - how much), then labeled (segmented) based on the combination of RFM scores
 
-## **II. DATA PREPARATION (EDA)**
+## **II. DATA PREPARATION (EDA)** 
 In this data preparation stage, we will check for **_missing values, duplicates,_** and **_incorrect data types/data values_** to make sure the dataset is **_clean_** and **_ready_** for further analysis.
 ### 1. CHECKING
 ```Python
